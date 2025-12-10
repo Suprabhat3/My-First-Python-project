@@ -1,3 +1,5 @@
+# This is a mini project mimic the functionlaity of the ATM
+
 class Atm:
     def __init__(self):
         self.__pin = ""
@@ -53,4 +55,5 @@ class Atm:
             print(self.__balance)
         else:
            print("Invalid pin")
+
         self.menu() 
